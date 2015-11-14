@@ -17,4 +17,4 @@ When debugging websites built using XSLT, it can be useful to output the XML int
 
 
 [link to extension on Chrome Web Store]: <https://chrome.google.com/webstore/detail/jlhlgnkckfiffjkndpmklkgcgkogicce/publish-delayed>
-[screenshot]: https://github.com/twynsicle/xmldisplay/screenshot.png
+[screenshot]: /screenshot.png
