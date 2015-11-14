@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Libs -->
+		<link href="chrome_shared.css" rel="stylesheet" type="text/css" media="all">
+		<link href="widgets.css" rel="stylesheet" type="text/css" media="all">
+
+		<link href="options.css" rel="stylesheet" type="text/css" media="all">
+		<title>xmlDisplay Options Page</title>
+	</head>
+	<body>
+
+		<div class="main-container">
+
+			<h1>XmlDisplay Options</h1>
+			<hr>
+
+			<h3>Target Element</h3>
+			<input id="target" data-storage="target" type="text" placeholder="css selector targeting container containing xml." />
+
+			<br /><br />
+
+			<h3>Splitter</h3>
+			<input id="splitter" data-storage="splitter" type="text" placeholder="(Optional) Take xml AFTER this string in target element."/>
+
+
+			<h3>Hide attributes longer than</h3>
+			<input id="max-attribute length" data-storage="maxAttributeLength" type="text" placeholder=""/>
+
+			<h3>Collapse elements after depth</h3>
+			<input id="max-indent" data-storage="maxIndent" type="text" placeholder=""/>
+
+			<h3>Elements to hide</h3>
+			<input id="elements-to-collapse" data-storage="elementsToCollapse" type="text" placeholder="Enter element names separated by spaces."/>
+
+		</div>
+
+	</body>
+
+		<script src="../libs/jquery-2.0.3.min.js"></script>
+		<script src="../libs/SettingsManager.js"></script>
+		<script src="options.js"></script>
+</html>
