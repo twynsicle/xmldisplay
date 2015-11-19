@@ -30,7 +30,7 @@ module Utils {
 			// Load settings.
 			this.maxAttributeLength = settings.maxAttributeLength || 9999;
 			this.maxIndent = settings.maxIndent || 9999;
-			var names:string[] = settings.elementsToCollapse ? settings.elementsToCollapse.split('') : [''];
+			var names:string[] = settings.elementsToCollapse ? settings.elementsToCollapse.split(' ') : [''];
 			$.each(names, (index:number, elem:string) => {
 				this.elementsToCollapse.push(elem.trim());
 			});
